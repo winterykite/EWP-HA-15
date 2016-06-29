@@ -4,21 +4,21 @@ $("#befehle").DataTable({
 });
 
 $("#commit").tooltipster({
-	content: $("#commit").detach()
+	content: $("#commitcontent").detach()
 });
 
 $("#add").tooltipster({
-	content: $("#add").detach()
+	content: $("#addcontent").detach()
 });
 
 $("#push").tooltipster({
-	content: $("#push").detach()
+	content: $("#pushcontent").detach()
 });
 
 $("#pull").tooltipster({
-	content: $("#pull").detach()
+	content: $("#pullcontent").detach()
 });
 
 $("#clone").tooltipster({
-	content: $("#clone").detach()
+	content: $("#clonecontent").detach()
 });

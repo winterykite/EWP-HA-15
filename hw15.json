@@ -1,9 +1,9 @@
 {
-	"data": [
+	"data" : [
 		[
 			"clone",
 			"$ git clone https://github.com/winterykite/EWP-HA-15",
-			"Kopiert das zentral an der Addresse gepseicherte Projekt lokal."
+			"Kopiert das zentral an der Addresse gespeicherte Projekt lokal."
 		],
 		[
 			"add",

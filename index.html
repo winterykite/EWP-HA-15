@@ -3,10 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>EWP HA 15</title>
+<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.datatables/1.10.10/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.tooltipster/4.0.4/css/tooltipster.bundle.min.css">
 </head>
 <body>
 
 <!-- TODO: Erstellen Sie hier die nötigen Inhalte -->
 
+<div>
+	<h2>Git-Workflow</h2>
+	<p>Mithilfe von Git kann man, anders als zum Beispiel in Google Docs, nicht nur dynamisch, sondern auch offline Projekte bearbeiten, und sie mit der Arbeit von Projektmitgliedern synchronisieren. Dies funktioniert wie folgt:</p>
+	<ul>
+		<li>Mithilfe des <b><span id="clone">git clone</span></b>-commands wird das Projekt auf den Rechner der bearbeitenden Person kopiert, und somit lokal und offline verwendbar. Dieser Klon ist, bis er synchronisiert wird, von dem zentral gespeicherten Projekt unabhängig.</li>
+		<li>Der <b><span id="add">git add</span></b>-command merkt vor, welche der Dateien im Workspace geändert werden sollen.</li>
+		<li>Die Änderungen in diesen vorgemerkten Dateien werden mithilfe des commands <b><span class="commit">git commit</span></b> dann gespeichert. Der <b><span class="commit">git commit</span></b>-command ist reversibel.</li>
+		<li>Um das lokale und das zentrale Repositorium zu synchronisieren, werden die commands <b><span class="push">git push</span></b> und <b><span class="pull">git pull</span></b> verwendet. <b><span class="push">git push</span></b> gibt die lokalen Daten an das zentrale Repositorium weiter, während <b><span class="pull">git pull</span></b> eventuell veränderte Daten aus dem zentralen Repositorium abruft.</li>
+	</ul>
+	<span id="clonecontent">$ git clone https://github.com/winterykite/EWP-HA-15</span>
+	<span id="addcontent">$ git add index.html</span>
+	<span id="commitcontent">$ git commit -m "Index aktualisiert"</span>
+	<span id="pushcontent">$ git push [origin] [master]</span>
+	<span id="pullcontent">$ git pull</span>
+</div>
+<div>
+	<table id="befehle">
+		<tr>
+			<th>Befehl</th>
+			<th>Beispiel</th>
+			<th>Effekt</th>
+		</tr>
+	</table>
+</div>
+<div>
+	<a href="https://github.com/winterykite/EWP-HA-15"><img src="GitHub-Mark.png"></a>
+</div>
+<!-- Skripte einbinden -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/jquery.dataTables.min.js"></script>
+	<script src="hw15.js"></script>
 </body>
 </html>

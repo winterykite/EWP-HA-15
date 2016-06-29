@@ -1,0 +1,30 @@
+{
+	"data": [
+		[
+			"clone",
+			"$ git clone https://github.com/winterykite/EWP-HA-15",
+			"Kopiert das zentral an der Addresse gepseicherte Projekt lokal."
+		],
+		[
+			"add",
+			"$ git clone index.html",
+			"Merkt ausgewählte Dateien (in diesem Fall index.html) zur Zwischenspeicherung vor."
+		],
+		[
+			"commit",
+			"$ git commit -m 'Ich bin eine Nachricht'",
+			"Speichert vorgemerkte Dateien lokal zwischen, mit der Nachricht 'Ich bin eine Nachricht'."
+		],
+		[
+			"push",
+			"$ git push [origin] [master]",
+			"Sendet die gespeicherte lokale Version zum zentralen Repositorium."
+			
+		],
+		[
+			"pull",
+			"$ git pull https://github.com/winterykite/EWP-HA-15",
+			"Lädt aktuellere Dateien aus dem addressierten Repositorium."
+		]
+	]
+}
